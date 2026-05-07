@@ -1,0 +1,8 @@
+Code Coupling:
+The form has UI code and calculation logic together. If we change the design, the logic may also need changes.
+
+Lack of Reusability:
+The addition code is written inside the button click event. So it cannot be easily reused in another form or project.
+
+Difficulty in Maintenance:
+This is fine for a small calculator. But if more features are added, the form code will become messy and hard to manage.
